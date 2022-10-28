@@ -1,0 +1,178 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: #c1c1c1;
+	color: #000000;
+	font-family: 'Roboto', sans-serif;
+	margin: 0px;
+	user-select: none;
+}
+
+.menu
+{
+	background-color: #202020;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 22px;
+	z-index: 1;
+}
+
+.menu .logo
+{
+	font-family: sans-serif;
+	font-size: 30px;
+	color: #ffffff;
+	float: left;	
+	
+	margin-left: 22px;
+}
+
+.menu .entry
+{
+	font-family: sans-serif;
+	font-size: 25px;
+	float: right;
+	
+	margin-right: 25px;
+}
+
+#aboutme
+{
+	width: 100%;
+	padding-top: 90px;
+}
+
+#aboutme .title
+{
+	font-family: 'Rubik';
+	font-size: 45px;
+	text-align: center;
+}
+
+#aboutme .profile
+{
+	width: 26%;
+	height: 26vw;
+	margin-left: 37%;
+	margin-right: 36%;
+	margin-top: 60px;
+
+	border-radius: 100%;
+	border-style: solid;
+	border-color: darkgray;
+	border-width: 5px;
+}
+
+#projects
+{
+	width: 100%;
+	padding-top: 90px;
+}
+
+#projects .project
+{
+	width: 68%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+}
+
+#projects .project .thumbnail
+{
+	width: 200px;
+	height: 125px;
+
+	outline-style: solid;
+	outline-color: gray;
+	outline-width: 3px; /*3px or 4px*/
+
+	transition: transform 0.3s;
+}
+
+#projects .project .thumbnail:hover
+{
+	transform: scale(2);
+}
+
+#projects .project .description
+{
+	font-size: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 100%;
+}
+
+#projects .project .redirect
+{
+	width: 50px;
+	height: 50px;
+
+	background-color: #ffffff;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: darkgray;
+	border-width: 3px;
+}
+
+#projects .project .redirect:hover
+{
+	background-color: #e0e0e0;
+}
+
+#contact
+{
+	width: 100%;
+	height: 260px;
+	padding-top: 70px;
+}
+
+a.link
+{
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+}
+
+a.link:hover 
+{
+	text-decoration: none;
+	color: #e50700;
+	display: block;
+}
+
+.header
+{
+	font-size: 35px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.infotable
+{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.infotable td
+{
+	font-size: 20px;
+	padding: 8px;
+}
+
+.infotable .left
+{
+	text-align: left;
+}
+
+.infotable .right
+{
+	text-align: right;
+}
