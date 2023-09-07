@@ -69,6 +69,11 @@ body
 	border-width: 5px;
 }
 
+#aboutme .header
+{
+	margin-bottom: 0;
+}
+
 #projects
 {
 	width: 100%;
@@ -175,4 +180,34 @@ a.link:hover
 .infotable .right
 {
 	text-align: right;
+}
+
+.topinfo
+{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+
+	font-size: 20px;
+	padding: 8px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.topinfo div
+{
+	margin: 10px;
+}
+
+.topinfo .logo
+{
+	width: 150px;
+	height: 170px;
+}
+
+.topinfo .details
+{
+	text-align: center;
 }
