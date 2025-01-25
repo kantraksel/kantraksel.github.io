@@ -10,6 +10,7 @@ body
 	font-family: 'Roboto', sans-serif;
 	margin: 0px;
 	user-select: none;
+	-webkit-user-select: none;
 }
 
 .menu
@@ -135,6 +136,20 @@ body
 	width: 100%;
 	height: 260px;
 	padding-top: 70px;
+	user-select: text;
+	-webkit-user-select: text;
+}
+
+#contact .header
+{
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+#contact .infotable .left
+{
+	user-select: none;
+	-webkit-user-select: none;
 }
 
 a.link
