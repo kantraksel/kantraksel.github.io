@@ -89,14 +89,19 @@ body
 	padding-bottom: 30px;
 }
 
-#projects .project .thumbnail
+#projects .project .thumbnail_img
 {
 	width: 200px;
-	height: 125px;
+	margin: auto;
+}
 
-	outline-style: solid;
-	outline-color: gray;
-	outline-width: 3px; /*3px or 4px*/
+#projects .project .thumbnail
+{
+	width: 208px;
+	height: 133px;
+
+	display: flex;
+	background-color: gray;
 
 	transition: transform 0.3s;
 }
