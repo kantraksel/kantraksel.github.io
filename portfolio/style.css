@@ -95,6 +95,20 @@ body
 	margin: auto;
 }
 
+#projects .project .thumbnail_img_portrait
+{
+	height: 125px;
+	margin: auto;
+}
+
+#projects .project .thumbnail_img_background
+{
+	width: 200px;
+	height: 125px;
+	margin: auto;
+	display: flex;
+}
+
 #projects .project .thumbnail
 {
 	width: 208px;
