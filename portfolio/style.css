@@ -109,6 +109,13 @@ body
 	display: flex;
 }
 
+#projects .project .thumbnail_keepsize
+{
+	width: 208px;
+	height: 133px;
+	display: flex;
+}
+
 #projects .project .thumbnail
 {
 	width: 208px;
